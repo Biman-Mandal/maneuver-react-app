@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const BASE_URL = `${ process.env.REACT_APP_NODE_APP_BASE_URL}/api`;
-console.log(BASE_URL, "test 001222222")
+
 export const userAuthApi = createApi({
   reducerPath: 'userAuthApi',
   baseQuery: fetchBaseQuery({
