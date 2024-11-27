@@ -1,0 +1,104 @@
+/* Login.css */
+.login-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login-form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-imgcontainer {
+  text-align: center;
+}
+
+.login-avatar {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.login-input-container {
+  padding: 16px;
+}
+
+.login-label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.login-input-email, .login-input-password {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.login-cancelbtn {
+  background-color: #f44336;
+  width: 48%;
+}
+
+.login-cancelbtn:hover {
+  background-color: #e53935;
+}
+
+.login-psw {
+  float: right;
+}
+
+.login-psw a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.login-psw a:hover {
+  text-decoration: underline;
+}
+
+.login-checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.login-checkbox-container label {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.login-container a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.login-footer-container {
+  margin: 10px 0;
+}
+.login-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}  
